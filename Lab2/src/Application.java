@@ -9,18 +9,18 @@ public class Application {
         this.outputDevice = outputDevice;
     }
 
-    public void run() {
+    public void run(int maxScore) {
         outputDevice.writeMessage("The game has started...");
-        playGame();
+        playGame(maxScore);
     }
 
-    public void playGame() {
+    public void playGame(int maxScore) {
 
         int Player1Score = 0;
         int Player2Score = 0;
         int round = 1;
 
-        while(Player1Score < 5 && Player2Score < 5){
+        while(Player1Score < maxScore && Player2Score < maxScore){
             int Player1Choice = inputDevice.nextInt();
             int Player2Choice = inputDevice.nextInt();
             outputDevice.writeMessage("______Round_"+round+"_______");
@@ -57,9 +57,9 @@ public class Application {
             outputDevice.writeMessage("Player 1 score: " + Player1Score);
             outputDevice.writeMessage("Player 2 score: " + Player2Score);
 
-            if (Player1Score >= 5){
+            if (Player1Score >= maxScore){
                 outputDevice.writeMessage("Player1 wins!");
-            } else if (Player2Score >= 5) {
+            } else if (Player2Score >= maxScore) {
                 outputDevice.writeMessage("Player2 wins!");
             }
         }
