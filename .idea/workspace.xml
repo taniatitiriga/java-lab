@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de8debbe-09e0-4a52-a3f1-e204c8696e60" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Lab3/src/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/src/Banana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/src/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/src/Mango.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/src/Peelable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/src/SeedRemovable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/src/Strawberry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/src/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +27,9 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2nQH9FHVuvE5gok4MEiJ7lsoiyb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,6 +40,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Tania/uni/java-project&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -57,7 +66,10 @@
       <option name="presentableId" value="Default" />
       <updated>1728898228147</updated>
       <workItem from="1728898229474" duration="1109000" />
-      <workItem from="1729161079237" duration="1658000" />
+      <workItem from="1729161079237" duration="2843000" />
+      <workItem from="1729595950502" duration="605000" />
+      <workItem from="1729599448761" duration="606000" />
+      <workItem from="1729694284018" duration="6325000" />
     </task>
     <servers />
   </component>
