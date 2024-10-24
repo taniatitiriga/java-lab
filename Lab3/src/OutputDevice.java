@@ -5,8 +5,9 @@ public class OutputDevice {
 
     public boolean printFruits(Fruit[] fruits) {
         boolean flag = false;
-
+        boolean fruitflag = false;
         for (Fruit fruit : fruits) {
+            fruitflag = false;
             StringBuilder output = new StringBuilder("a ");
 
             if (fruit instanceof Peelable) {
@@ -30,16 +31,18 @@ public class OutputDevice {
                 Peelable peelableFruit = (Peelable) fruit;
                 if (peelableFruit.hasPeel()) {
                     flag = true;
+                    fruitflag = true;
                 }
             }
             if (fruit instanceof SeedRemovable) {
                 SeedRemovable seedRemovableFruit = (SeedRemovable) fruit;
                 if (seedRemovableFruit.hasSeeds()) {
                     flag = true;
+                    fruitflag = true;
                 }
             }
-            if(flag){
-                writeMessage("Oops! You forgot this one >:)");
+            if(fruitflag){
+                writeMessage("Oops! You forgot this one >:)\n");
             }
         }
         return flag;

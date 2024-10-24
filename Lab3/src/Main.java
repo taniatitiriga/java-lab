@@ -47,7 +47,7 @@ public class Main {
                     outputDevice.writeMessage("Thank you!:3 But really, it's just "+ sugar + " grams of sugar!");
                     outputDevice.writeMessage("\n");
                 }
-                else if (args[i].equals("cook")) {
+                else if (args[i].equals("prepare")) {
                     app.prepareFruit(fruits);
                     outputDevice.writeMessage("\n");
                 }
